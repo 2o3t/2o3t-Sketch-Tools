@@ -1,0 +1,37 @@
+{
+    "name": "2o3t-tools",
+    "version": "1.0.9",
+    "identifier": "cn.2o3t.sketch.plugin",
+    "description": "Easy Tools, batch rename layers and artboards, etc.",
+    "author": "Zyao89 <zyao89@gmail.com>",
+    "private": true,
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/2o3t/2o3t-Sketch-Tools.git"
+    },
+    "engines": {
+        "sketch": ">=51.0"
+    },
+    "skpm": {
+        "name": "2O3T Tools",
+        "manifest": "src/manifest.json",
+        "main": "2O3T-Tools.sketchplugin",
+        "assets": [
+            "assets/**/*"
+        ]
+    },
+    "scripts": {
+        "build": "cross-env CUSTOM_NODE_ENV=production NODE_ENV=release skpm-build",
+        "watch": "skpm-build --watch",
+        "start": "skpm-build --watch --run",
+        "postinstall": "npm run build && skpm-link",
+        "log": "skpm log -f",
+        "publish:release": "node ./bin/publish.js",
+        "publish:patch": "node ./bin/publish-patch.js",
+        "publish": "node ./bin/publish-pre.js"
+    },
+    "resources": [
+        "resources/**/*.js"
+    ]
+}

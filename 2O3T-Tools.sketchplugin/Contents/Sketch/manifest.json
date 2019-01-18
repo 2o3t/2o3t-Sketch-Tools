@@ -1,0 +1,74 @@
+{
+  "compatibleVersion": 51,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "重命名",
+      "identifier": "rename-identifier",
+      "script": "rename.js",
+      "shortcut": "ctrl cmd r",
+      "handler": "onMain"
+    },
+    {
+      "name": "ActionHandles",
+      "identifier": "action-handles-identifier",
+      "script": "index.js",
+      "handlers": {
+        "actions": {
+          "SelectionChanged.finish": "onSelectionChanged"
+        }
+      }
+    },
+    {
+      "name": "图标库",
+      "identifier": "iconfont-identifier",
+      "script": "iconfont.js",
+      "shortcut": "ctrl cmd i",
+      "handler": "onMain"
+    },
+    {
+      "name": "设置",
+      "identifier": "setting-identifier",
+      "script": "setting.js",
+      "handler": "onMain"
+    },
+    {
+      "name": "官网",
+      "identifier": "about-identifier",
+      "script": "about.js",
+      "handler": "onMain"
+    },
+    {
+      "name": "反馈",
+      "identifier": "issues-identifier",
+      "script": "issues.js",
+      "handler": "onMain"
+    }
+  ],
+  "menu": {
+    "title": "2O3T Tools",
+    "items": [
+      "rename-identifier",
+      "iconfont-identifier",
+      "-",
+      "setting-identifier",
+      "-",
+      {
+        "title": "关于",
+        "items": [
+          "about-identifier",
+          "issues-identifier"
+        ]
+      }
+    ]
+  },
+  "version": "1.0.9",
+  "description": "Easy Tools, batch rename layers and artboards, etc.",
+  "name": "2O3T Tools",
+  "identifier": "2O3T Tools",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/.appcast.xml",
+  "author": "Zyao89",
+  "authorEmail": "zyao89@gmail.com"
+}
