@@ -1,6 +1,7 @@
 {
   "compatibleVersion": 51,
   "bundleVersion": 1,
+  "homepage": "https://uikit.2o3t.cn/2o3t-Sketch-Tools",
   "icon": "icon.png",
   "commands": [
     {
@@ -8,7 +9,8 @@
       "identifier": "rename-identifier",
       "script": "rename.js",
       "shortcut": "ctrl cmd r",
-      "handler": "onMain"
+      "handler": "onMain",
+      "i18n": "i18n.title.rename"
     },
     {
       "name": "ActionHandles",
@@ -25,25 +27,36 @@
       "identifier": "iconfont-identifier",
       "script": "iconfont.js",
       "shortcut": "ctrl cmd i",
-      "handler": "onMain"
+      "handler": "onMain",
+      "i18n": "i18n.title.iconfont"
     },
     {
       "name": "设置",
       "identifier": "setting-identifier",
       "script": "setting.js",
-      "handler": "onMain"
+      "handler": "onMain",
+      "i18n": "i18n.title.setting"
+    },
+    {
+      "name": "重新加载",
+      "identifier": "reloadPlugins-identifier",
+      "script": "reloadPlugins.js",
+      "handler": "onMain",
+      "i18n": "i18n.title.reload"
+    },
+    {
+      "name": "帮助及反馈",
+      "identifier": "issues-identifier",
+      "script": "issues.js",
+      "handler": "onMain",
+      "i18n": "i18n.title.issues"
     },
     {
       "name": "官网",
       "identifier": "about-identifier",
       "script": "about.js",
-      "handler": "onMain"
-    },
-    {
-      "name": "反馈",
-      "identifier": "issues-identifier",
-      "script": "issues.js",
-      "handler": "onMain"
+      "handler": "onMain",
+      "i18n": "i18n.title.portal"
     }
   ],
   "menu": {
@@ -54,11 +67,13 @@
       "-",
       "setting-identifier",
       "-",
+      "reloadPlugins-identifier",
       {
         "title": "关于",
+        "i18n": "i18n.title.about",
         "items": [
-          "about-identifier",
-          "issues-identifier"
+          "issues-identifier",
+          "about-identifier"
         ]
       }
     ]
