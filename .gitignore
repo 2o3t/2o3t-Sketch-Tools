@@ -104,5 +104,3 @@ package-lock.json
 yarn.lock
 
 .README.md
-
-.appcast.xml
