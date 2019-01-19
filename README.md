@@ -21,7 +21,7 @@ or...
 <br />
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_01.jpg" width="800" />
+    <img src="https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_01.png" width="800" />
 </p>
 
 ## Installation
@@ -39,10 +39,10 @@ or...
 ### Rename All
 
 - Step 1
-![Step 1](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_02.jpg)
+![Step 1](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_02.gif)
 
 - Step 2
-![Step 2](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_03.jpg)
+![Step 2](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_03.gif)
 
 > You can mix and match at will.
 
@@ -51,13 +51,17 @@ or...
 ### Icon Font
 
 - Normal Drag
-![Normal](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_11.jpg)
+![Normal](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_11.gif)
 
 - Change Size
-![Change Size](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_12.jpg)
+![Change Size](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_12.gif)
 
 - Change Color
-![Change Color](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_13.jpg)
+![Change Color](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_13.gif)
+
+### Change Language
+
+![Change Language](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_21.png)
 
 ## Feedback
 

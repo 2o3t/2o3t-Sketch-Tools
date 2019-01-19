@@ -20,7 +20,7 @@ or...
 <br />
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_01.jpg" width="800" />
+    <img src="https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_01.png" width="800" />
 </p>
 
 ## 安装
@@ -43,7 +43,7 @@ or...
 
 你可以选择多个公式进行组合, 也可以自己尝试输入公式组合. 玩法很多.
 
-![Step 1](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_02.jpg)
+![Step 1](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_02.gif)
 
 - 步骤二
 
@@ -51,7 +51,7 @@ or...
 
 或者, 你可以直接点击 `重命名` 完成操作.
 
-![Step 2](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_03.jpg)
+![Step 2](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_03.gif)
 
 > 你可以将公式进行随意的组合, 如果你不满意现有的公式, 你可以去下方链接了解更多
 
@@ -59,14 +59,18 @@ or...
 
 ### 图标库
 
-- 普通拖拽创建
-![Normal](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_11.jpg)
+- 普通拖拽创建
+![Normal](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_11.gif)
 
 - 可预先设置大小
-![Change Size](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_12.jpg)
+![Change Size](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_12.gif)
 
 - 可预先设定颜色
-![Change Color](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_13.jpg)
+![Change Color](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_13.gif)
+
+### 切换语言
+
+![Change Language](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_21.png)
 
 ## 反馈
 
