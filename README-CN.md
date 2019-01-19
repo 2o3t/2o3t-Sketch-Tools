@@ -3,14 +3,13 @@
 [![Download from Sketchpacks.com](https://badges.sketchpacks.com/plugins/cn.2o3t.sketch.plugin/version.svg)](https://sketchpacks.com/2o3t/2o3t-Sketch-Tools)
 [![View on Sketchpacks.com](https://badges.sketchpacks.com/plugins/cn.2o3t.sketch.plugin/downloads/total.svg)](https://sketchpacks.com/2o3t/2o3t-Sketch-Tools)
 
-This is a [Sketch](https://www.sketchapp.com/) plugin for batch rename layers and artboards, etc.
-Easy Tools.
+这是一个 [Sketch](https://www.sketchapp.com/) 插件, 拥有强大的**批量重命名**功能, 以及一些其他功能.
 
-[中文文档](./README-CN.md)
+[English Doc.](./README.md)
 
-## Download
+## 下载
 
-[Download Latest Version](https://github.com/2o3t/2o3t-Sketch-Tools/releases/latest)
+[最新版本](https://github.com/2o3t/2o3t-Sketch-Tools/releases/latest)
 
 or...
 
@@ -24,41 +23,51 @@ or...
     <img src="https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_01.jpg" width="800" />
 </p>
 
-## Installation
+## 安装
 
-1. Download the [latest version of the plugin](https://github.com/2o3t/2o3t-Sketch-Tools/releases/latest).
+1. 首先, 下载最新版本 [最新版本地址](https://github.com/2o3t/2o3t-Sketch-Tools/releases/latest).
 
-2. Unzip the file.
+2. 解压文件.
 
-3. Double-click the `2O3T-Tools.sketchplugin` file.
+3. 双击 `2O3T-Tools.sketchplugin` 文件.
 
-4. You should see the new `2O3T Tools` entry in your Plugins menu.
+4. 安装完成, 你应该可以在 Sketch 插件菜单中看到一个名叫 `2O3T Tools` 的新入口了.
 
-## Usage
+## 使用方式
 
-### Rename All
+### 批量重命名
 
-- Step 1
+- 步骤一
+
+选择你想重命名的 Layer, 并且输入想要替换的结果.
+
+你可以选择多个公式进行组合, 也可以自己尝试输入公式组合. 玩法很多.
+
 ![Step 1](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_02.jpg)
 
-- Step 2
+- 步骤二
+
+完成输入框后, 可以在预览界面查看预知结果. 
+
+或者, 你可以直接点击 `重命名` 完成操作.
+
 ![Step 2](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_03.jpg)
 
-> You can mix and match at will.
+> 你可以将公式进行随意的组合, 如果你不满意现有的公式, 你可以去下方链接了解更多
 
-[Detailed documentation](https://www.2o3t.cn/issues?type=sketch&name=2o3t-tools)
+[详细文档及反馈](https://www.2o3t.cn/issues?type=sketch&name=2o3t-tools)
 
-### Icon Font
+### 图标库
 
-- Normal Drag
+- 普通拖拽创建
 ![Normal](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_11.jpg)
 
-- Change Size
+- 可预先设置大小
 ![Change Size](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_12.jpg)
 
-- Change Color
+- 可预先设定颜色
 ![Change Color](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_13.jpg)
 
-## Feedback
+## 反馈
 
-[Click Go](https://www.2o3t.cn/issues?type=sketch&name=2o3t-tools)
+[反馈地址](https://www.2o3t.cn/issues?type=sketch&name=2o3t-tools)
