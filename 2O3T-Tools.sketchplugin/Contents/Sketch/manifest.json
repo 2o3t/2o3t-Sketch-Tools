@@ -5,7 +5,7 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "重命名",
+      "name": "Rename",
       "identifier": "rename-identifier",
       "script": "rename.js",
       "shortcut": "ctrl cmd r",
@@ -23,7 +23,7 @@
       }
     },
     {
-      "name": "图标库",
+      "name": "Icon Font",
       "identifier": "iconfont-identifier",
       "script": "iconfont.js",
       "shortcut": "ctrl cmd i",
@@ -31,28 +31,28 @@
       "i18n": "i18n.title.iconfont"
     },
     {
-      "name": "设置",
+      "name": "Setting",
       "identifier": "setting-identifier",
       "script": "setting.js",
       "handler": "onMain",
       "i18n": "i18n.title.setting"
     },
     {
-      "name": "重新加载",
+      "name": "Reload",
       "identifier": "reloadPlugins-identifier",
       "script": "reloadPlugins.js",
       "handler": "onMain",
       "i18n": "i18n.title.reload"
     },
     {
-      "name": "帮助及反馈",
+      "name": "Help & Issues",
       "identifier": "issues-identifier",
       "script": "issues.js",
       "handler": "onMain",
       "i18n": "i18n.title.issues"
     },
     {
-      "name": "官网",
+      "name": "Portal",
       "identifier": "about-identifier",
       "script": "about.js",
       "handler": "onMain",
@@ -69,7 +69,7 @@
       "-",
       "reloadPlugins-identifier",
       {
-        "title": "关于",
+        "title": "About",
         "i18n": "i18n.title.about",
         "items": [
           "issues-identifier",

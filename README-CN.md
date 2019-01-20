@@ -7,6 +7,8 @@
 
 [English Doc.](./README.md)
 
+[关于插件详细的帮助文档, 请到这里来! >>>](https://www.2o3t.cn/post/5c360b25eb83bb2fffd0139d)
+
 ## 下载
 
 [最新版本](https://github.com/2o3t/2o3t-Sketch-Tools/releases/latest)

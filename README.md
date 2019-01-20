@@ -8,6 +8,8 @@ Easy Tools.
 
 [中文文档](./README-CN.md)
 
+[关于插件详细的帮助文档, 请到这里来! >>>](https://www.2o3t.cn/post/5c360b25eb83bb2fffd0139d)
+
 ## Download
 
 [Download Latest Version](https://github.com/2o3t/2o3t-Sketch-Tools/releases/latest)
