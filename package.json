@@ -1,6 +1,6 @@
 {
     "name": "2o3t-tools",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "identifier": "cn.2o3t.sketch.plugin",
     "description": "Easy Tools, batch rename layers and artboards, etc.",
     "author": "Zyao89 <zyao89@gmail.com>",
