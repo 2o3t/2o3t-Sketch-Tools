@@ -1,6 +1,6 @@
 {
     "name": "2o3t-tools",
-    "version": "1.0.10",
+    "version": "1.0.9",
     "identifier": "cn.2o3t.sketch.plugin",
     "description": "Easy Tools, batch rename layers and artboards, etc.",
     "author": "Zyao89 <zyao89@gmail.com>",
@@ -27,9 +27,11 @@
         "start": "skpm-build --watch --run",
         "postinstall": "npm run build && skpm-link",
         "log": "skpm log -f",
-        "publish:release": "node ./bin/publish.js",
-        "publish:patch": "node ./bin/publish-patch.js",
-        "publish": "node ./bin/publish-pre.js"
+        "publish:release": "cross-env CUSTOM_NODE_ENV=production NODE_ENV=release node ./bin/publish.js",
+        "publish:patch": "cross-env CUSTOM_NODE_ENV=production NODE_ENV=release node ./bin/publish-patch.js",
+        "publish": "cross-env CUSTOM_NODE_ENV=production NODE_ENV=release node ./bin/publish-pre.js",
+        "wp:dev": "webpack-dev-server --config webpack/webpack.config.dev.js --progress --colors --watch",
+        "wp:build": "webpack --config webpack/webpack.config.prod.js --progress --colors"
     },
     "resources": [
         "resources/**/*.js"
