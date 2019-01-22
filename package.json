@@ -28,6 +28,7 @@
         "postinstall": "npm run build && skpm-link",
         "log": "skpm log -f",
         "publish:release": "cross-env CUSTOM_NODE_ENV=production NODE_ENV=release node ./bin/publish.js",
+        "publish:minor": "cross-env CUSTOM_NODE_ENV=production NODE_ENV=release node ./bin/publish-minor.js",
         "publish:patch": "cross-env CUSTOM_NODE_ENV=production NODE_ENV=release node ./bin/publish-patch.js",
         "publish": "cross-env CUSTOM_NODE_ENV=production NODE_ENV=release node ./bin/publish-pre.js",
         "sync": "cross-env CUSTOM_NODE_ENV=production NODE_ENV=release node ./bin/publish-sync.js",
