@@ -18,7 +18,9 @@
       "script": "index.js",
       "handlers": {
         "actions": {
-          "SelectionChanged.finish": "onSelectionChanged"
+          "SelectionChanged.finish": "onSelectionChanged",
+          "Startup": "onStartup",
+          "UpdatePlugins": "onUpdatePlugins"
         }
       }
     },

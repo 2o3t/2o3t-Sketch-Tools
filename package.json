@@ -30,6 +30,7 @@
         "publish:release": "cross-env CUSTOM_NODE_ENV=production NODE_ENV=release node ./bin/publish.js",
         "publish:patch": "cross-env CUSTOM_NODE_ENV=production NODE_ENV=release node ./bin/publish-patch.js",
         "publish": "cross-env CUSTOM_NODE_ENV=production NODE_ENV=release node ./bin/publish-pre.js",
+        "sync": "cross-env CUSTOM_NODE_ENV=production NODE_ENV=release node ./bin/publish-sync.js",
         "wp:dev": "webpack-dev-server --config webpack/webpack.config.dev.js --progress --colors --watch",
         "wp:build": "webpack --config webpack/webpack.config.prod.js --progress --colors"
     },

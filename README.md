@@ -40,15 +40,15 @@ or...
 
 ### Rename All
 
+> You can mix and match at will.
+
+[Detailed documentation](./docs/README-Rename.md)
+
 - Step 1
 ![Step 1](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_02.gif)
 
 - Step 2
 ![Step 2](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_03.gif)
-
-> You can mix and match at will.
-
-[Detailed documentation](https://www.2o3t.cn/issues?type=sketch&name=2o3t-tools)
 
 ### Icon Font
 
