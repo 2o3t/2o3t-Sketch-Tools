@@ -21,9 +21,9 @@ or...
 
 <br />
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_01.png" width="800" />
-</p>
+![](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_01.png)
+
+![Rename Function](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_04.gif)
 
 ## 安装
 
