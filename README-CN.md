@@ -9,6 +9,8 @@
 
 [关于插件详细的帮助文档, 请到这里来! >>>](https://www.2o3t.cn/post/5c360b25eb83bb2fffd0139d)
 
+![Rename Function](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_04.gif)
+
 ## 下载
 
 [最新版本](https://github.com/2o3t/2o3t-Sketch-Tools/releases/latest)
@@ -22,8 +24,6 @@ or...
 <br />
 
 ![](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_01.png)
-
-![Rename Function](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_04.gif)
 
 ## 安装
 
