@@ -3,6 +3,11 @@
 1. Download and unzip 2O3T-Tools.zip
 2. Double-click 2O3T-Tools.sketchplugin to complete the installation.
 
+## Update
+
+> If you encounter problems such as white screen after updating, you can clear the cache resolution in the settings.
+
+**v1.2.0** Added `Advanced Features` grouping, added `Find Replace` formula.
 
 ## Usage
 
@@ -96,59 +101,6 @@ Execute Plugins > 2O3T Tools > Rename or use the shortcut key `command ⌘` + `c
 <span style="padding: 0 20px; opacity: 0.4;"> &gt&gt&gt </span>
 <!-- After the change -->
 2O3T.cn 二圆三土
-</p>
-
-
-<span style="background: #fff1f0; color: #f5222d; padding: 3px 6px; border: solid 1px #ffa39e; border-radius: 6px; font-size: 0.9em; margin-right: 5px;"> specified length Intercept %*s1l3% </span> retains the named content of the original layer of the specified length, s is the starting position (starting at 1), l is the intercept length. You can also enter the formula `%*s1l3%` directly. For example, modify the middle `3T.c` in the title to be modified to `yy7t`. We can change the formula to `%*s1l2%yy7t%*s7l6%`;
-
-<p style="background: #fafafa; padding: 12px 20px; font-size: 0.9em;">
-<span style="padding: 0 20px; opacity: 0.4;">Example: </span>
-<span style="background: #111; color: #fff; padding: 3px 6px 3px 8px; border: solid 1px #111; border-radius: 6px; font-size: 0.9em; margin-right: 5px;">
-<!-- Formula -->
-%*s1l2%yy7t%*s7l6%
-</span>
-<span style="padding: 0 20px; opacity: 0.4;"> &gt&gt&gt </span>
-<!-- After the change -->
-2Oyy7tn 二圆三土
-</p>
-
-Simple formula method, if the modified content is only the middle part of the text, as long as the output to the replacement text part, the latter formula does not need complete output, the formula will automatically retain the following content
-<p style="background: #fafafa; padding: 12px 20px; font-size: 0.9em;">
-<span style="padding: 0 20px; opacity: 0.4;">Example: </span>
-<span style="background: #111; color: #fff; padding: 3px 6px 3px 8px; border: solid 1px #111; border-radius: 6px; font-size: 0.9em; margin-right: 5px;">
-<!-- Formula -->
-%*s9l3%yy7tn
-</span>
-<span style="padding: 0 20px; opacity: 0.4;"> &gt&gt&gt </span>
-<!-- After the change -->
-二圆三土yy7tn
-</p>
-
-
-<span style="background: #fff1f0; color: #f5222d; padding: 3px 6px; border: solid 1px #ffa39e; border-radius: 6px; font-size: 0.9em; margin-right: 5px;"> Intercept %*s1e6% </span> Keep the naming content of the original layer at the specified position, s is the starting position (starting at 1), e is the cutoff position. You can also directly enter the formula `%*s1e6%` to modify In the middle of the title, `3T.c` is modified to `yy7t`, we can change the formula to `%*s1e2%yy7t%*s6e12%`;
-
-<p style="background: #fafafa; padding: 12px 20px; font-size: 0.9em;">
-<span style="padding: 0 20px; opacity: 0.4;">Example: </span>
-<span style="background: #111; color: #fff; padding: 3px 6px 3px 8px; border: solid 1px #111; border-radius: 6px; font-size: 0.9em; margin-right: 5px;">
-<!-- Formula -->
-%*s1e2%yy7t%*s6e12%
-</span>
-<span style="padding: 0 20px; opacity: 0.4;"> &gt&gt&gt </span>
-<!-- After the change -->
-2Oyy7tn 二圆三土
-</p>
-
-Simple formula method, if the modified content is only the middle part of the text, as long as the output to the replacement text part, the latter formula does not need complete output, the formula will automatically retain the following content
-
-<p style="background: #fafafa; padding: 12px 20px; font-size: 0.9em;">
-<span style="padding: 0 20px; opacity: 0.4;">Example: </span>
-<span style="background: #111; color: #fff; padding: 3px 6px 3px 8px; border: solid 1px #111; border-radius: 6px; font-size: 0.9em; margin-right: 5px;">
-<!-- Formula -->
-%*s8e10%yy7tn
-</span>
-<span style="padding: 0 20px; opacity: 0.4;"> &gt&gt&gt </span>
-<!-- After the change -->
-二圆yy7tn
 </p>
 
 ### 3. How to use the label in the layer property renaming, usually the same as the icon size to the naming.
@@ -390,3 +342,73 @@ Font_%fn%
 Font_PingFang SC Regular
 </p>
 
+### 6. Advanced Features
+
+> Assumption: The following case is based on the text `2O3T.cn 二圆三土`.
+
+
+<span style="background: #fff1f0; color: #f5222d; padding: 3px 6px; border: solid 1px #ffa39e; border-radius: 6px; font-size: 0.9em; margin-right: 5px;"> specified length Intercept %*s1l3% </span> retains the named content of the original layer of the specified length, s is the starting position (starting at 1), l is the intercept length. You can also enter the formula `%*s1l3%` directly. For example, modify the middle `3T.c` in the title to be modified to `yy7t`. We can change the formula to `%*s1l2%yy7t%*s7l6%`;
+
+<p style="background: #fafafa; padding: 12px 20px; font-size: 0.9em;">
+<span style="padding: 0 20px; opacity: 0.4;">Example: </span>
+<span style="background: #111; color: #fff; padding: 3px 6px 3px 8px; border: solid 1px #111; border-radius: 6px; font-size: 0.9em; margin-right: 5px;">
+<!-- Formula -->
+%*s1l2%yy7t%*s7l6%
+</span>
+<span style="padding: 0 20px; opacity: 0.4;"> &gt&gt&gt </span>
+<!-- After the change -->
+2Oyy7tn 二圆三土
+</p>
+
+Simple formula method, if the modified content is only the middle part of the text, as long as the output to the replacement text part, the latter formula does not need complete output, the formula will automatically retain the following content
+<p style="background: #fafafa; padding: 12px 20px; font-size: 0.9em;">
+<span style="padding: 0 20px; opacity: 0.4;">Example: </span>
+<span style="background: #111; color: #fff; padding: 3px 6px 3px 8px; border: solid 1px #111; border-radius: 6px; font-size: 0.9em; margin-right: 5px;">
+<!-- Formula -->
+%*s9l3%yy7tn
+</span>
+<span style="padding: 0 20px; opacity: 0.4;"> &gt&gt&gt </span>
+<!-- After the change -->
+二圆三土yy7tn
+</p>
+
+
+<span style="background: #fff1f0; color: #f5222d; padding: 3px 6px; border: solid 1px #ffa39e; border-radius: 6px; font-size: 0.9em; margin-right: 5px;"> Intercept %*s1e6% </span> Keep the naming content of the original layer at the specified position, s is the starting position (starting at 1), e is the cutoff position. You can also directly enter the formula `%*s1e6%` to modify In the middle of the title, `3T.c` is modified to `yy7t`, we can change the formula to `%*s1e2%yy7t%*s6e12%`;
+
+<p style="background: #fafafa; padding: 12px 20px; font-size: 0.9em;">
+<span style="padding: 0 20px; opacity: 0.4;">Example: </span>
+<span style="background: #111; color: #fff; padding: 3px 6px 3px 8px; border: solid 1px #111; border-radius: 6px; font-size: 0.9em; margin-right: 5px;">
+<!-- Formula -->
+%*s1e2%yy7t%*s6e12%
+</span>
+<span style="padding: 0 20px; opacity: 0.4;"> &gt&gt&gt </span>
+<!-- After the change -->
+2Oyy7tn 二圆三土
+</p>
+
+Simple formula method, if the modified content is only the middle part of the text, as long as the output to the replacement text part, the latter formula does not need complete output, the formula will automatically retain the following content
+
+<p style="background: #fafafa; padding: 12px 20px; font-size: 0.9em;">
+<span style="padding: 0 20px; opacity: 0.4;">Example: </span>
+<span style="background: #111; color: #fff; padding: 3px 6px 3px 8px; border: solid 1px #111; border-radius: 6px; font-size: 0.9em; margin-right: 5px;">
+<!-- Formula -->
+%*s8e10%yy7tn
+</span>
+<span style="padding: 0 20px; opacity: 0.4;"> &gt&gt&gt </span>
+<!-- After the change -->
+二圆yy7tn
+</p>
+
+
+<span style="background: #fffbe6; color: #faad14; padding: 3px 6px; border: solid 1px #ffe58f; border-radius: 6px; font-size: 0.9em; margin-right: 5px;"> Find Replace %*fO$rT% </span> to specify a section of the original layer's naming to be replaced, f is the specified content in the original text, $r is the content that needs to be replaced (can be empty).
+
+<p style="background: #fafafa; padding: 12px 20px; font-size: 0.9em;">
+<span style="padding: 0 20px; opacity: 0.4;">Example: </span>
+<span style="background: #111; color: #fff; padding: 3px 6px 3px 8px; border: solid 1px #111; border-radius: 6px; font-size: 0.9em; margin-right: 5px;">
+<!-- Formula -->
+Find_Replace_%*f2O3T$rABC%
+</span>
+<span style="padding: 0 20px; opacity: 0.4;"> &gt&gt&gt </span>
+<!-- After the change -->
+Find_Replace_ABC.cn
+</p>
