@@ -3,7 +3,7 @@
 1. Download and unzip 2O3T-Tools.zip
 2. Double-click 2O3T-Tools.sketchplugin to complete the installation.
 
-## Update
+## What's new
 
 > If you encounter problems such as white screen after updating, you can clear the cache resolution in the settings.
 

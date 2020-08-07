@@ -36,6 +36,12 @@ or...
 
 4. You should see the new `2O3T Tools` entry in your Plugins menu.
 
+## What's new
+
+> If you encounter problems such as white screen after updating, you can clear the cache resolution in the settings.
+
+**v1.2.0** Added `Advanced Features` grouping, added `Find Replace` formula.
+
 ## Usage
 
 ### Rename All

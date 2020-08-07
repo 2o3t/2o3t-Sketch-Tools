@@ -1,5 +1,5 @@
 
-var content = require("!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js??ref--10-2!./normalize.css");
+var content = require("!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js??ref--11-2!./normalize.css");
 
 if(typeof content === 'string') content = [[module.id, content, '']];
 
@@ -18,8 +18,8 @@ var update = require("!../../node_modules/style-loader/lib/addStyles.js")(conten
 if(content.locals) module.exports = content.locals;
 
 if(module.hot) {
-	module.hot.accept("!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js??ref--10-2!./normalize.css", function() {
-		var newContent = require("!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js??ref--10-2!./normalize.css");
+	module.hot.accept("!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js??ref--11-2!./normalize.css", function() {
+		var newContent = require("!!../../node_modules/css-loader/dist/cjs.js!../../node_modules/postcss-loader/src/index.js??ref--11-2!./normalize.css");
 
 		if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 

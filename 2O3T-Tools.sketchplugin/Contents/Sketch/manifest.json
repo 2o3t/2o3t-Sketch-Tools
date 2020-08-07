@@ -7,7 +7,7 @@
     {
       "name": "Rename",
       "identifier": "rename-identifier",
-      "script": "rename.js",
+      "script": "__pages_rename.js",
       "shortcut": "ctrl cmd r",
       "handler": "onMain",
       "i18n": "i18n.title.rename"
@@ -15,7 +15,7 @@
     {
       "name": "ActionHandles",
       "identifier": "action-handles-identifier",
-      "script": "index.js",
+      "script": "__actions_index.js",
       "handlers": {
         "actions": {
           "SelectionChanged.finish": "onSelectionChanged",
@@ -27,7 +27,7 @@
     {
       "name": "Icon Font",
       "identifier": "iconfont-identifier",
-      "script": "iconfont.js",
+      "script": "__pages_iconfont.js",
       "shortcut": "ctrl cmd i",
       "handler": "onMain",
       "i18n": "i18n.title.iconfont"
@@ -35,28 +35,28 @@
     {
       "name": "Setting",
       "identifier": "setting-identifier",
-      "script": "setting.js",
+      "script": "__pages_setting.js",
       "handler": "onMain",
       "i18n": "i18n.title.setting"
     },
     {
       "name": "Reload",
       "identifier": "reloadPlugins-identifier",
-      "script": "reloadPlugins.js",
+      "script": "__pages_reloadPlugins.js",
       "handler": "onMain",
       "i18n": "i18n.title.reload"
     },
     {
       "name": "Help & Issues",
       "identifier": "issues-identifier",
-      "script": "issues.js",
+      "script": "__pages_issues.js",
       "handler": "onMain",
       "i18n": "i18n.title.issues"
     },
     {
       "name": "Portal",
       "identifier": "about-identifier",
-      "script": "about.js",
+      "script": "__pages_about.js",
       "handler": "onMain",
       "i18n": "i18n.title.portal"
     }
