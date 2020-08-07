@@ -7,7 +7,7 @@
 
 [English Doc.](./README.md)
 
-[关于插件详细的帮助文档, 请到这里来! >>>](https://www.2o3t.cn/post/5c360b25eb83bb2fffd0139d)
+[关于插件详细的帮助文档, 请到这里来! >>>](https://zyao89.cn/s/4d20cb18.html)
 
 ![Rename Function](https://raw.githubusercontent.com/2o3t/2o3t-Sketch-Tools/master/docs/images/capture_04.gif)
 
